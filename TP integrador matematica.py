@@ -101,8 +101,8 @@ impar = 0
 for year in birth_year:
     if year % 2 == 0:
         par += 1
-else:
-    impar += 1
+    else:
+        impar += 1
 
 print(f"\nCantidad de personas nacidas en años pares: {par}")
 print(f"Cantidad de personas nacidas en años impares: {impar}")
